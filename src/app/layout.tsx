@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Oswald, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
+import Banner from "../../components/Banner/Banner";
 
 const nunitoSans = Nunito_Sans({
   variable: "--font-nunito-sans",
@@ -42,8 +43,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${nunitoSans.variable} ${oswald.variable}  antialiased`}
       >
+        <Banner />
         <Header />
         {children}
+        <Banner />
         <Footer />
       </body>
     </html>
