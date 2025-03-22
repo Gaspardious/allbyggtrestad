@@ -14,13 +14,13 @@ export default function Home() {
            <Link href="/offer"> <button className="bg-[#eeeeee] hover:scale-105 cursor-pointer text-[#263e90] font-bold py-2 px-4 mt-5 rounded w-31">Tjänster</button> </Link>
           </div>
         </div>
-      <Info BigText="Dags att renovera?" SmallText="You a good boy now!" ImageSrc="/paint.jpg" BtnText="Kontakta oss"/>
-      <Info BigText="Vi är ett steg bort!" SmallText="Svarar inom 24h!" ImageSrc="/drill.jpg" reverse/>
+      <Info BigText="Dags att renovera?" SmallText="Vi svarar inom 24h" ImageSrc="/paint.jpg" BtnText="Kontakta oss"/>
+      <Info BigText="Vi är ett steg bort!" SmallText="Över 100 renoverade badrum!" ImageSrc="/drill.jpg" reverse/>
       <div className="flex flex-wrap justify-center gap-2">
       <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är säg glad och lycklig!'  />
-      <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är säg glad och lycklig!'  />
+      <Reviews customerNumber='Kund #48' customerName="Klas Göran" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är säg glad och lycklig!'  />
       </div>
-      <Info BigText="Dags att renovera?" SmallText="You a good boy now!" ImageSrc="/tools.jpg"/>
+      <Info BigText="Dags att renovera?" SmallText="Ta ett första - förutsättningslöst - möte. Vi tittar på era behov och kommer med förslag som passar er." BtnText="Kontakta oss" ImageSrc="/tools.jpg"/>
     </div>
   );
 }
