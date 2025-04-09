@@ -64,8 +64,8 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
     <div className="container" ref={scope}>
       {/* Mobile Menu Button */}
       <motion.button
-        className="p-2 mr-2 bg-[#263e57] text-white rounded-md sm:hidden z-40"
-        initial={{ opacity: 0 }}
+        className="p-2 mr-2 bg-[#263e57] text-white rounded-md sm:hidden z-40 flex"
+        initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.8 }}
@@ -75,14 +75,22 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
       </motion.button>
 
       {/* Sidebar Menu */}
-      <ul className=" flex flex-col justify-start items-center ul_container fixed top-0 left-0 h-full w-64 bg-gray-800 text-white p-5 shadow-lg z-40">
+      <ul className="flex flex-col justify-start items-center ul_container fixed top-0 left-0 h-full w-64 bg-gray-800 text-white p-5 shadow-lg z-40"
+          style={{ 
+            transform: 'translateX(-100%)', 
+            opacity: 0,
+            pointerEvents: open ? 'auto' : 'none',
+            visibility: open ? 'visible' : 'hidden',
+            display: open ? 'flex' : 'none'
+          }}>
         <p className="self-start close_btn cursor-pointer text-xl" onClick={() => setOpen(false)}>
           ✖
         </p>
-           <Image src="/logo_light.png"  alt="logo" width={100} height={90} className="self-center mb-10" />
+        <Image src="/logo_light.png" alt="logo" width={100} height={90} className="self-center mb-10" />
         <div className="flex flex-col gap-2">
         {links.map((link, index) => (
-          <motion.li key={index} className="li_container m-3 font-bold text-lg text-center uppercase">
+          <motion.li key={index} className="li_container m-3 font-bold text-lg text-center uppercase" 
+                     style={{ transform: 'translateX(-100%)', opacity: 0 }}>
             <Link href={link.path} onClick={() => setOpen(false)} className="hover:text-blue-300 font-oswald">
               {link.label}
             </Link>
@@ -90,7 +98,6 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
         ))}
         </div>
       </ul>
-
     </div>
   );
 };
