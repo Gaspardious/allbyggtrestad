@@ -10,33 +10,29 @@ const Contact = () => {
         </div>
 
 
-        <div className="flex flex-wrap md:flex md:flex-row justify-center items-center gap-5 md:gap-10 absolute top-60 w-full">
-        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-36 h-30 rounded-lg sm:w-40 sm:h-32'>
+        <div className="flex flex-wrap md:flex md:flex-row justify-center items-center gap-5 absolute top-60 w-full">
+        <div className='relative flex flex-col p-2 items-center justify-center gap-5 shadow-xl bg-white w-38 h-30 rounded-lg '>
           <Image src='/position.svg' alt='logo' width={25} height={25} className='absolute top-2 left-2' />
           <p className='text-black text-sm font-bold'>Adress:</p>
-          <p className='text-black text-sm'>Allbyggsgatan 1</p>
+          <p className='text-black text-xs'>Lövvägen 4, <br /> 468 30, Vargön</p>
         </div>
-        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-36 h-30 rounded-lg sm:w-40 sm:h-32 '>
+        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-38 h-30 rounded-lg'>
           <Image src='/phone.svg' alt='logo' width={25} height={25} className='absolute top-2 left-2' />
           <p className='text-black text-sm font-bold'>Telefon:</p>
-          <p className='text-black text-sm'>07345 34 56</p>
+          <p className='text-black text-xs'>+46 73-500 27 33</p>
         </div>
-        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-36 h-30 rounded-lg sm:w-40 sm:h-32 '>
+        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-38 h-30 rounded-lg'>
           <Image src='/email.svg' alt='logo' width={20} height={20} className='absolute top-2 left-2' />
           <p className='text-black text-sm font-bold'>Mail:</p>
-          <p className='text-black text-sm'>allbygg@gmail.com</p>
+          <p className='text-black text-xs'>info@allbyggtrestad.se</p>
         </div>
-        <div className='relative flex flex-col items-center justify-center gap-5 shadow-xl bg-white w-36 h-30 rounded-lg sm:w-40 sm:h-32'>
-          <Image src='/clock.svg' alt='logo' width={25} height={25} className='absolute top-2 left-2' />
-          <p className='text-black text-sm font-bold'>Öppettider:</p>
-          <p className='text-black text-sm text-center '>Vardag:  8:00 - 20:00</p>
-        </div>
+
       </div>
       
 
       <h1 className="text-3xl mt-10 sm:text-6xl font-extrabold text-white absolute top-20 left-1/2 transform -translate-x-1/2">Kontakta oss</h1>
         <form className='mt-[200px] md:mt-[100px]' action="">
-          <div className="flex flex-col items-center justify-center h-full gap-10">
+          <div className="flex flex-col items-center justify-center h-full gap-2">
             <p className="text-[#263e90] text-center p-5">Ring eller maila oss om du vill du ha offert eller rådgivning om vad som skulle passa dig och ditt projekt bäst. <br /> <br /> Använd gärna formuläret nedan så  svarar vi så fort vi kan.</p>
             <div className="flex flex-col items-center justify-center h-full gap-10">
               <input required type="text" placeholder="Namn*" className="w-80 h-10 text-black  bg-white placeholder:text-[#263e90] border-2 border-[#263e90] rounded pl-2"/>
@@ -47,8 +43,8 @@ const Contact = () => {
             </div>
           </div>
           <h2 className="text-[#263e90] text-center mt-10 pb-5">Vill du nå oss på telefon istället?</h2>
-          <p className="text-[#263e90] text-center"><strong>VD:</strong> Emin Kahirman </p>
-          <p className="text-[#263e90] text-center"><strong>Telefon:</strong> +46 123 456 789</p>
+          <p className="text-[#263e90] text-center"><strong>Kundansvarig:</strong> Emin Kahirman </p>
+          <p className="text-[#263e90] text-center"><strong>Telefon:</strong> +46 73-500 27 33</p>
         </form>
     </div>
   )

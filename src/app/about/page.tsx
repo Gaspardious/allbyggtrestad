@@ -11,27 +11,17 @@ const about = () => {
        
         <div className="flex flex-col items-center justify-center h-full gap-5"> 
           <h2 className='text-2xl text-black pt-10 font-bold'>Kort om oss</h2>
-          <p className='text-black w-3/4 sm:text-lg sm:w-2/4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus beatae asperiores aut blanditiis, ratione ipsam ex, ad error repellat, 
-            quos laboriosam modi in quaerat rem iusto distinctio deleniti fugit molestias.
-             <br /> <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus beatae asperiores aut blanditiis, ratione ipsam ex, ad error repellat, 
-            quos laboriosam modi in quaerat rem iusto distinctio deleniti fugit molestias.
+          <p className='text-black w-3/4 sm:text-lg sm:w-2/4'> 
+            Allbygg Trestad AB är ett företag som bygger och renoverar hus. Vi har varit på marknaden i  snart 10 år och har byggt och renoverat allt från hus till badrum och altaner.
+            Vi har en stor erfarenhet av bygg- och renoveringsprojekt och vi är stolta över att kunna erbjuda högkvalitativa tjänster till våra kunder.
             <br /> <br />
           </p>
 
           <h2 className='text-2xl text-black font-bold'>Varför välja oss?</h2>
-          <p className='text-black w-3/4 sm:text-lg sm:w-2/4 p-0 m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus beatae asperiores aut blanditiis, ratione ipsam ex, ad error repellat, 
-            quos laboriosam modi in quaerat rem iusto distinctio deleniti fugit molestias.
+          <p className='text-black w-3/4 sm:text-lg sm:w-2/4 p-0 m-0'>
+          <strong className='underline decoration-2 decoration-blue-500'>Dokumenterad</strong> god erfarenhet av bygg- och renoveringsprojekt. Ta inte vårt ord för det. Vi kan visa dig våra tidigare projekt och alla våra tidigare nöjda kunder! 😁
           </p>
 
-          <h2 className='text-2xl text-black font-bold'>Vad erbjuder vi?</h2>
-          <p className='text-black w-3/4 sm:text-lg sm:w-2/4 p-0 m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repellendus beatae asperiores aut blanditiis, ratione ipsam ex, ad error repellat, 
-            quos laboriosam modi in quaerat rem iusto distinctio deleniti fugit molestias.
-          </p>
 
         </div>
       </div>

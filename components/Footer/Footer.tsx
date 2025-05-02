@@ -28,8 +28,9 @@ const Footer = () => {
           <section>
             <h2 className="text-white text-2xl font-bold mb-5">Kontakta oss</h2>
             <div className="max-w-[200px] sm:max-w-none mx-auto sm:mx-0">
-                <p className="text-white text-sm"><strong>Adress:</strong> 123 45 Stockholm</p>
-                <p className="text-white text-sm"><strong>Telefon:</strong> +46 123 456 789</p>
+                <p className="text-white text-sm"><strong>Adress:</strong> Lövvägen 4, 468 30, Vargön</p>
+                <p className="text-white text-sm"><strong>Telefon:</strong> +46 73-500 27 33</p>
+                <p className="text-white text-sm"><strong>Mejl:</strong> info@allbyggtrestad.se</p>
               </div>
           </section>
 
@@ -49,9 +50,9 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center gap-1">
          <Image src="/logo_light.png" alt="logo" width={70} height={70}  />
           <section>
-            <p className="text-white text-sm">© 2025 Allbygg Trestad AB </p>
-            <p className="text-white text-sm">All rights reserved </p>
-            <p className="text-white text-sm">Org.nr 123456789 </p>
+            <p className="text-white text-xs">© 2025 Allbygg Trestad AB </p>
+            <p className="text-white text-xs">All rights reserved </p>
+            <p className="text-white text-xs">Org.nr 559056-1782 </p>
           </section>
         </div>
 

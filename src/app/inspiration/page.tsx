@@ -1,6 +1,4 @@
 import Info from '../../../components/Info/Info'
-import Reviews from '../../../components/Reviews/Reviews'
-
 
 const inspiration = () => {
   return (
@@ -26,29 +24,14 @@ const inspiration = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Repellendus beatae asperiore, ad error repellat," 
         reverse ImageSrc="/paint.jpg" />
-
-
-      <div className='flex flex-wrap justify-center gap-0 sm:gap-10'>
-        <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är så glad och lycklig!'  />
-        <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är så glad och lycklig!'  />
-      </div>
-
-
-        <Info BigText="Dags att renovera?" SmallText="
+        <Info BigText="Ny altan?" SmallText="
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        Repellendus beatae asperiores a, ad error repellat." 
-        ImageSrc="/paint.jpg" />
-        <Info BigText="Vi kan bygga!" reverse SmallText="
+        Repellendus beatae asperiore, ad error repellat," 
+         ImageSrc="/paint.jpg" />
+        <Info BigText="Ny altan?" SmallText="
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-        , ratione ipsam ex, ad error repellat," 
-        ImageSrc="/paint.jpg"/>
-
-
-
-<div className='flex flex-wrap justify-center gap-0 sm:gap-10'>
-        <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är så glad och lycklig!'  />
-        <Reviews customerNumber='Kund #56' customerName="Johnny B Carlsson" heading='Nöjd!!' text='Mitt badrum blev så himla fint. Jag är så glad och lycklig!'  />
-      </div>
+        Repellendus beatae asperiore, ad error repellat," 
+        reverse ImageSrc="/paint.jpg" />
 
       </div>
 

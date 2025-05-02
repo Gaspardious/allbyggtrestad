@@ -47,7 +47,7 @@ const Header = () => {
               { name: "HEM", path: "/" },
               { name: "OM OSS", path: "/about" },
               { name: "TJÄNSTER", path: "/offer" },
-              { name: "INSPIRATION", path: "/inspiration" },
+/*               { name: "INSPIRATION", path: "/inspiration" }, */
               { name: "KONTAKT", path: "/contact" },
             ].map((link) => (
               <Link 
@@ -63,8 +63,8 @@ const Header = () => {
           </nav>
         </div>
         <div className="flex flex-row items-center justify-center h-full gap-1">
-          <Link href="/shop"><button className="hidden sm:bg-gray-500 hover:bg-[#263e90] cursor-pointer text-white w-full font-bold py-2 px-4 rounded font-oswald mr-10 sm:block">E-handel</button></Link>
-          <Link href="/contact"><button className="bg-[#263e57] hover:bg-[#263e90] cursor-pointer text-white font-bold py-2 px-4 rounded w-31 font-oswald mr-5">Begär offert</button></Link>
+{/*           <Link href="/shop"><button className="hidden sm:bg-gray-500 hover:bg-[#263e90] cursor-pointer text-white w-full font-bold py-2 px-4 rounded font-oswald mr-10 sm:block">E-handel</button></Link>
+ */}          <Link href="/contact"><button className="bg-[#263e57] hover:bg-[#263e90] cursor-pointer text-white font-bold py-2 px-4 rounded w-31 font-oswald mr-5">Begär offert</button></Link>
           
           <MobileMenu open={menuOpen} setOpen={setMenuOpen} />
         </div>

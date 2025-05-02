@@ -24,7 +24,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
     { label: "Om oss", path: "/about" },
     { label: "Kontakt", path: "/contact" },
     { label: "Tjänster", path: "/offer" },
-    { label: "Inspiration", path: "/inspiration" },
+/*     { label: "Inspiration", path: "/inspiration" }, */
     { label: "Cookies", path: "/cookiespolicy" },
     { label: "Integritetspolicy", path: "/integritetspolicy" },
   ];

@@ -18,8 +18,8 @@ const Shop = () => {
             </div>
           </div>
           <h2 className="text-[#263e90] text-center mt-10 pb-5">Vill du nå oss på telefon istället?</h2>
-          <p className="text-[#263e90] text-center"><strong>VD:</strong> Emin Kahirman </p>
-          <p className="text-[#263e90] text-center"><strong>Telefon:</strong> +46 123 456 789</p>
+          <p className="text-[#263e90] text-center"><strong>Kundansvarig:</strong> Emin Kahirman </p>
+          <p className="text-[#263e90] text-center"><strong>Telefon:</strong> +46 73-500 27 33</p>
         </form>
     </div>
   )
