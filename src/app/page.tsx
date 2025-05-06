@@ -14,7 +14,7 @@ export default function Home() {
            <Link href="/offer"> <button className="bg-[#eeeeee] hover:scale-105 cursor-pointer text-[#263e90] font-bold py-2 px-4 mt-5 rounded w-31">Tjänster</button> </Link>
           </div>
         </div>
-      <Info BigText="Dags att bygga altan?" SmallText="Luta dig tillbaka och låt oss oss göra jobbet..." ImageSrc="/drill.jpg" BtnText="Kontakta oss"/>
+      <Info BigText="Dags att bygga altan?" SmallText="Luta dig tillbaka och låt oss oss göra jobbet..." ImageSrc="/altan2.jpg" BtnText="Kontakta oss"/>
       <Info reverse BigText="Renovering?" SmallText="Ta ett första - förutsättningslöst - möte. Vi tittar på era behov och kommer med förslag som passar er." BtnText="Kontakta oss" ImageSrc="/tools.jpg"/>
       <div className="flex flex-wrap justify-center gap-2">
       <Reviews customerNumber='Kund #49' customerName="Anto" heading='Mycket bra! Rekommenderas!' text='Ett mycket väl genomfört arbete. Snyggt jobbat!'  />
