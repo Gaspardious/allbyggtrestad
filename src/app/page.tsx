@@ -5,7 +5,7 @@ import Reviews from "../../components/Reviews/Reviews";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-200">
       <div className="relative h-[700px] w-full bg-cover bg-center bg-no-repeat bg-[url('/renovation.jpg')]">
         <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative flex flex-col items-center justify-center h-full text-center">

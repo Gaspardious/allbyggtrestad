@@ -4,7 +4,7 @@ import Info from '../../../components/Info/Info'
 
 const Offer = () => {
   return (
-    <div className='w-full relative '>
+    <div className='w-full relative'>
       <div className="relative h-[300px] w-full bg-cover bg-center bg-no-repeat bg-[url('/bath.jpg')]">
         <div className="absolute inset-0 bg-black opacity-50"></div>
         </div>

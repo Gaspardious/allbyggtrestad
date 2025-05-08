@@ -64,7 +64,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
     <div className="container" ref={scope}>
       {/* Mobile Menu Button */}
       <motion.button
-        className="p-2 mr-2 bg-[#263e57] text-white rounded-md sm:hidden z-40 flex"
+        className="p-2 mr-2 bg-[#263e57] text-white rounded-md lg:hidden z-40 flex"
         initial={{ opacity: 1 }}
         animate={{ opacity: 1 }}
         whileHover={{ scale: 1.1 }}
@@ -83,7 +83,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ open, setOpen}) => {
             visibility: open ? 'visible' : 'hidden',
             display: open ? 'flex' : 'none'
           }}>
-        <p className="self-start close_btn cursor-pointer text-xl" onClick={() => setOpen(false)}>
+        <p className="self-start close_btn text-white cursor-pointer text-xl" onClick={() => setOpen(false)}>
           ✖
         </p>
         <Image src="/logo_light.png" alt="logo" width={100} height={90} className="self-center mb-10" />

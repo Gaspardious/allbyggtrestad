@@ -20,8 +20,8 @@ const Footer = () => {
             <h2 className="text-white text-2xl font-bold mb-5">Om oss</h2>
             <div className="flex flex-col gap-2 max-w-[200px] sm:max-w-none mx-auto sm:mx-0">
               <p className="text-white text-sm w-48 pb-3">Vi är ett byggföretag som erbjuder tjänster inom bygg och renovering.</p>
-              <Link className="hover:text-[#4c6cd3]" href="/integritetspolicy">- Integritetspolicy</Link>
-              <Link className="hover:text-[#4c6cd3]" href="/cookiespolicy"> - Cookies</Link>
+              <Link className="hover:text-[#4c6cd3] text-white" href="/integritetspolicy">- Integritetspolicy</Link>
+              <Link className="hover:text-[#4c6cd3] text-white" href="/cookiespolicy"> - Cookies</Link>
             </div>
           </section>
 
@@ -37,10 +37,10 @@ const Footer = () => {
           <section className=" hidden mt-10 sm:mt-0 sm:block">
             <h2 className="text-white text-2xl font-bold mb-5">Navigation</h2>
             <nav className="flex gap-2 justify-center sm:justify-start flex-col">
-                <Link className="hover:text-[#4c6cd3] active:text-[#4c6cd3]" href="/">HEM</Link>
-                <Link className="hover:text-[#4c6cd3]" href="/about">OM OSS</Link>
-                <Link className="hover:text-[#4c6cd3]" href="/offer">TJÄNSTER</Link>
-                <Link className="hover:text-[#4c6cd3]" href="/contact">KONTAKT</Link>
+                <Link className="hover:text-[#4c6cd3] text-white" href="/">HEM</Link>
+                <Link className="hover:text-[#4c6cd3] text-white" href="/about">OM OSS</Link>
+                <Link className="hover:text-[#4c6cd3] text-white" href="/offer">TJÄNSTER</Link>
+                <Link className="hover:text-[#4c6cd3] text-white" href="/contact">KONTAKT</Link>
             </nav>
           </section>
         </div>
