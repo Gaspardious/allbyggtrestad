@@ -32,7 +32,7 @@ const Contact = () => {
 
       <h1 className="text-3xl mt-10 sm:text-6xl font-extrabold text-white absolute top-20 left-1/2 transform -translate-x-1/2">Kontakta oss</h1>
  
-      <div className="flex flex-col items-center justify-center h-full gap-2 mt-20">
+      <div className="flex flex-col items-center justify-center h-full gap-2 mt-50 sm:mt-20">
         <p className="text-[#263e90] text-center p-5">Mejla oss eller ring oss! <br /> Vi besvarar samtliga mejl inom 24 timmar. Skulle vi inte svara när ni ringer - avvakta så återkommer vi så fort vi kan.</p>
         <p className="text-[#263e90] text-center"><strong>Kundansvarig:</strong> Emin Kahirman </p>
         <p className="text-[#263e90] text-center"><strong>Telefon:</strong> +46 73-500 27 33</p>
